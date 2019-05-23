@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Endzone-Medium';
+  src: url(../fonts/EndzoneSans-Mediumdb6fdefbd482fcdf8d760648e7ea841a.eot);
+  src: url(../fonts/EndzoneSans-Mediumdb6fdefbd482fcdf8d760648e7ea841a.eot?#iefix) format("embedded-opentype"), url(../fonts/EndzoneSans-Mediuma7a87a910a6ec4f8c1f05ec0223b0f52.woff2) format("woff2"), url(../fonts/EndzoneSans-Medium5c40d8d4bd649c88939f732d39282cdd.woff) format("woff"), url(../fonts/EndzoneSans-Medium882d0592d3b2d3b281643a4fcd5324e6.ttf) format("truetype"), url(../fonts/EndzoneSans-Medium70c3891444f3ec87cd7b0fa5cdaffae2.svg#EndzoneSans-Medium) format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+
+/*# sourceMappingURL=main.css.map*/
