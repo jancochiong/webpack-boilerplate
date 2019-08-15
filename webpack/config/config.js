@@ -38,7 +38,10 @@ const common = {
     },
     plugins: [
         new webpack.ProvidePlugin({
-            $: path.resolve(__dirname, '../node_modules/jquery/dist/jquery.js')
+            $: path.resolve(__dirname, '../node_modules/jquery/dist/jquery.js'),
+            jQuery: path.resolve(__dirname, '../node_modules/jquery/dist/jquery.js'),
+            'window.jQuery': 'jquery',
+            'window.$': 'jquery'
         }),
         new MiniCssExtractPlugin({
             filename: "css/[name].css"
